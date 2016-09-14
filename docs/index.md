@@ -81,7 +81,7 @@ Retry when an IOError is raised or any subclasses of it.
 ```python
 import retrace
 
-@retrace.retry(on_exeption=IOError)
+@retrace.retry(on_exception=IOError)
 def unstable():
     # ...
 ```
